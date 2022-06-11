@@ -1404,3 +1404,154 @@ h4{
               92% { left: -100%; }
               96% { left: 0%; }
                 }
+/* blog page styling */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;
+600&display=swap'); */
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+html{
+    /* font-size: 62.5%; */
+    overflow-x: hidden;
+    /* background-color: #fff2fe; */
+}
+.content p {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}
+
+section{
+    /* padding: 5rem 10%; */
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.blog .box-container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(21rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+    gap: 2rem;    
+}
+
+.blog .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.blog .box-container .box.shadow{
+    box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34) !important;
+}
+
+
+.blog .box-container .box .image{
+    height: 15rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; 
+}
+
+.blog .box-container .box .image h3{
+    background-color: #fff;
+    color: #444;
+    position: absolute;
+    /* top: 2rem; */
+    /* left: 1rem; */
+    /* padding: .5rem 1.5rem; */
+    font-size: 1.1rem;
+    border-radius: 15px;
+}
+
+.blog .box-container .box .image h3 i{
+    color: #f36b6b;
+}
+
+.blog .box-container .box .content{
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.blog .box-container .box .content h3{
+    font-size: 1.2rem;
+}
+
+.blog .box-container .box .content p{
+    font-size: 1.0rem;
+    padding: 1rem 0;
+    line-height: 1;
+    color: #777;
+}
+
+
+.content h3:hover{
+color: #D33B02;
+}
+.btn:hover{
+    /* background: #f36b6b; */
+    color: #ffeeff;
+}
+
+
+
+/*  blog buttons */
+
+
+
+/* CSS */
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
